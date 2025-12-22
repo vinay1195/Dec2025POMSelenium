@@ -1,0 +1,21 @@
+POM  Design pattern
+DD Approach
+libs   Generic function
+TDD 
+HyBrid framework+POM(Single RESPONSIBLE PATTERN )
+
+
+page
+
+for EVery page in web/mobile app, we need to create separate pae ava class.
+never use Assertions in pagee class.
+Page actions need to provide the page behaviour.
+page locators should eb private and will be accessed via public oage actions
+
+ 
+Test
+Have to use Test clinet :TestNG/jnunit/pytest
+Asserions should ve written in Testclass.
+
+
+
