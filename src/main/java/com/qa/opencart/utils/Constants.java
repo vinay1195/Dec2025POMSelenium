@@ -7,7 +7,7 @@ public class Constants
 {
 	public static final String LOGGIN_PAGE_TITLE="Account Login";
 	public static final String LOGIN_PAGE_URL_FRACTION = "route=account";
-	public static final int DEFAULT_TIME_OUT = 5;
+	public static final int DEFAULT_TIME_OUT = 7;
 	public static final String ACCOUNTS_PAGE_TITLE ="My Account";
 	public static final Object IMAC_IMAGE_COUNT = 3;
 	public static final String LOGIN_ERROR_MSG ="No match for E-Mail Address and/or Password";
