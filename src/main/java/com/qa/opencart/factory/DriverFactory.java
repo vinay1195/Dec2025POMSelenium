@@ -6,12 +6,12 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.TakesScreenshot;
-import org.apache.commons.io.FileUtils;
 
 
 public class DriverFactory {
@@ -108,6 +108,7 @@ public class DriverFactory {
 		String path = System.getProperty("user.dir") + "/screenshots/" + System.currentTimeMillis() + ".png";
 		File destination = new File(path);
 		try {
+			
 			FileUtils.copyFile(src,destination);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
