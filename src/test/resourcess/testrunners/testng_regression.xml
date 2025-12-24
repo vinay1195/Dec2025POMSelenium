@@ -5,7 +5,6 @@
 	<listeners>
 		<listener
 			class-name="com.qa.opencart.listeners.AnnotationTransformer" />
-
 		<listener
 			class-name="com.qa.opencart.listeners.ExtentReportListener" />
 			<listener
@@ -31,11 +30,11 @@
 			<class name="com.qa.opencart.tests.ProductInfoPageTest" />
 		</classes>
 	</test>
-	<!--<test name="Open Cart Regitration Page Test">
+	<test name="Open Cart Regitration Page Test">
 		<classes>
 			<class name="com.qa.opencart.tests.RegistrationPageTest" />
 		</classes>
-	</test>-->
+	</test>
 
 
 	<!-- <test name="Open Cart Registration Page Test"> <classes> <class
